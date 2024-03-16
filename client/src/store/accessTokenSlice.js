@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit"; 
 
 const initialState = {
    token: JSON.parse(localStorage.getItem("Access Token")) || ""
